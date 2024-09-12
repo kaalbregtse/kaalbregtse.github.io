@@ -1,0 +1,88 @@
+.about_me_section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+}
+
+.num {
+    font-size: 25px;
+    color: #75ACA9;
+    font-family: "PT Mono", monospace;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 25px;
+    color: #A9A9A9;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: bold;
+}
+
+hr {
+    width:300px;
+    height: 1px;
+    border: 0;
+    background-color: rgb(167, 167, 167, 0.3);
+    margin: 0 0 0 20px;
+}
+
+.bio_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bio {
+    width: 60%;
+    font-family: "Mingzat", sans-serif;
+}
+
+.bio p {
+    color: #838FAE;
+    font-size: 18px;
+}
+
+.bio .paragraph_links {
+    text-decoration: none;
+    color: #75ACA9;
+}
+
+.technology_lists {
+    display: flex;
+    justify-content: space-around;
+    color: #838FAE;
+}
+
+.technology_lists ul {
+    list-style:square;
+    width: 50%;
+}
+
+.technology_lists ul li::marker {
+    color: #75ACA9;
+}
+
+.img_container {
+    width: fit-content;
+}
+
+.bio_pic {
+    width: 80%;
+    float: right;
+    filter: grayscale(1);
+    border-radius: 4px;
+    box-shadow: 9px 9px #081B30, 10px 10px 0px 3px #75ACA9;
+    transition: .25s ease-in-out;
+}
+
+.bio_pic:hover {
+    filter: grayscale(0);
+    box-shadow: 14px 14px #081B30, 15px 15px 0px 3px #75ACA9;
+}

@@ -1,0 +1,76 @@
+.experience_sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+}
+
+.experience_container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.job_tabs {
+    color: white;
+    width: 200px;
+    margin: 0 50px 0 35px;
+}
+
+.job_tabs .job_titles {
+    color: #838FAE;
+    padding: 12px 12px;
+    font-family: "Mingzat", sans-serif;
+    border-left: 2px solid rgb(167, 167, 167, 0.3);
+    transition: 0.25s linear;
+}
+
+.job_tabs .active {
+    border-left: 2px solid #75ACA9;
+}
+
+.job_tabs .job_titles:hover {
+    cursor: pointer;
+    background-color: rgb(131, 143, 174, 0.2);
+    color: #75ACA9;
+}
+
+.job_desc {
+    color: white;
+    width: 400px;
+}
+
+.job_desc h3 {
+    margin: 0;
+    font-family: "Mingzat", sans-serif;
+}
+
+.job_desc h3 .highlighted {
+    color: #75ACA9;
+}
+
+.job_desc .timeline {
+    margin: 10px 0;
+    color: #838FAE;
+}
+
+.job_desc .job_short_desc {
+    color: #838FAE;
+}
+
+.job_desc .job_bullets {
+    color: #838FAE;
+    padding-left: 15px;
+    list-style:square;
+}
+
+.job_desc .job_bullets li {
+    margin-bottom: 10px;
+    padding-left: 0px;
+    font-family: "Mingzat", sans-serif;
+}
+
+.job_desc .job_bullets li::marker {
+    color: #75ACA9;
+}
