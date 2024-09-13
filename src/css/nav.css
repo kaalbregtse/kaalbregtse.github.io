@@ -44,8 +44,10 @@ nav {
 }
 
 .links ul li a:hover {
-    text-decoration: underline #75ACA9;
+    color: #75ACA9;
 }
+
+
 
 .links ul li p {
     color: #75ACA9;
@@ -75,6 +77,6 @@ nav {
 }
 
 .links button:hover {
-    background-color: rgb(169, 169, 169, 0.3);
+    background-color: rgb(169, 169, 169, 0.1);
     cursor: pointer;
 }

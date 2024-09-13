@@ -4,6 +4,8 @@ import HeroBanner from './components/hero_banner';
 import AboutMe from './components/about_me';
 import Experience from './components/experience';
 import Projects from './components/projects';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -31,6 +33,8 @@ function App() {
           <AboutMe />
           <Experience />
           <Projects />
+          <Contact />
+          <Footer />
         </div>
 
         <div class="right_sidebar">

@@ -13,25 +13,25 @@ export default function Nav() {
             <div className='links'>
                 <ul>
                     <li>
-                        <a href='/'>
+                        <a href='#about'>
                             <p>01.</p>
                             About
                         </a>
                     </li>
                     <li>
-                        <a href='/'>
+                        <a href='#experience'>
                             <p>02.</p>
                             Experience
                         </a>
                     </li>
                     <li>
-                        <a href='/'>
+                        <a href='#projects'>
                             <p>03.</p>
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href='/'>
+                        <a href='#contact'>
                             <p>04.</p>
                             Contact
                         </a>

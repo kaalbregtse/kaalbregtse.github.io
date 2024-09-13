@@ -1,0 +1,15 @@
+.footer_section {
+    width: 400px;
+    text-align: center;
+    margin: 200px auto 30px auto;
+}
+
+.footer_section a {
+    text-decoration: none;
+    color: #838FAE;
+    transition: 0.25s ease-in-out;
+}
+
+.footer_section a:hover {
+    color: #75ACA9;
+}

@@ -1,0 +1,35 @@
+.contact_section {
+    width: 500px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.contact_header {
+    color: #75ACA9;
+    font-family: "Rubik Mono One", monospace;
+    font-size: 18px;
+}
+
+.contact_section h2 {
+    color: #A9A9A9;
+    font-family: "PT Mono", monospace;
+    font-size: 50px;
+    margin: 5px 0;
+}
+
+.contact_sentence {
+    font-size: 18px;
+    color: #838FAE;
+    font-family: "Rubik Mono One", monospace;
+    margin-bottom: 60px;
+}
+
+.contact_section a {
+    text-decoration: none;
+    color: #75ACA9;
+    border: 2px solid #75ACA9;
+    font-size: 18px;
+    font-family: "PT Mono", monospace;
+    padding: 8px 12px;
+    border-radius: 4px;
+}

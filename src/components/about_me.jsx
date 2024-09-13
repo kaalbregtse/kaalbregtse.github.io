@@ -4,7 +4,7 @@ import '../css/about_me.css';
 
 export default function AboutMe() {
     return (
-        <section className="about_me_section">
+        <section className="about_me_section" id="about">
             <div className="title_container">
                 <p className="num">01.</p>
                 <p className="title">About Me</p>
@@ -21,12 +21,12 @@ export default function AboutMe() {
 
                     <p>
                         Since then, I have had the opprotunity to continue my internship throughout my last two years of school,
-                        and eventually got hired on full time after graduation. My main focus at <a className='paragraph_links' href="/">Kirby Risk</a>, is 
+                        and eventually got hired on full time after graduation. My main focus at <a className='paragraph_links' href="https://www.kirbyrisk.com/">Kirby Risk</a>, is 
                         to build the best possible digital experience for our customers. 
                     </p>
 
                     <p>
-                        On the side, I am running my startup <a className='paragraph_links' href="/">Babblebot</a>. A supplemental online learning platform
+                        On the side, I am running my startup <a className='paragraph_links' href="https://babblebot.org/">Babblebot</a>. A supplemental online learning platform
                         for early readers and educators.
                     </p>
 

@@ -50,7 +50,7 @@ export default function Experience() {
     }
 
     return (
-        <section className="experience_sections">
+        <section className="experience_sections" id="experience">
             <div className="title_container">
                 <p className="num">02.</p>
                 <p className="title">Where I've worked</p>
