@@ -74,3 +74,9 @@
 .job_desc .job_bullets li::marker {
     color: #75ACA9;
 }
+
+@media screen and (max-width: 768px) {
+    .experience_container {
+        width: 80%;
+    }
+}

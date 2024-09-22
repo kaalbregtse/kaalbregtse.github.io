@@ -56,3 +56,30 @@
     background-color: rgb(169, 169, 169, 0.1);
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .hero_banner {
+        margin: 100px 0 50px 0;
+    }
+
+    .hero_banner h2 {
+        display: flex;
+        white-space: break-spaces;
+    }
+
+    .short_desc {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero_banner {
+
+    }
+
+    .hero_banner .intro {
+        font-size: 35px;
+    }
+}

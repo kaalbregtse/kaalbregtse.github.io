@@ -47,7 +47,7 @@ export default function Projects() {
 
             <div className="project_container">
                 <div className="project_img">
-                    <img src={Babblebot} alt="babblebot home page screenshot" height={350} width={600}/>
+                    <img src={Babblebot} alt="babblebot home page screenshot"/>
                 </div>
 
                 <div className="project_info">
@@ -65,7 +65,7 @@ export default function Projects() {
 
             <div className="project_container">
                 <div className="project_img">
-                    <img src={WebScraper} alt="web scraper code screenshot" height={350} width={600}/>
+                    <img src={WebScraper} alt="web scraper code screenshot"/>
                 </div>
 
                 <div className="project_info">
@@ -82,7 +82,7 @@ export default function Projects() {
 
             <div className="project_container">
                 <div className="project_img">
-                    <img src={WhatToEat} alt="What to eat app screenshot" height={350} width={600}/>
+                    <img src={WhatToEat} alt="What to eat app screenshot"/>
                 </div>
 
                 <div className="project_info">

@@ -10,6 +10,8 @@
     display: flex;
     text-align: right;
     margin-top: 100px;
+    margin: 100px auto 0 auto;
+    max-width: 80%;
 }
 
 .project_container_alt {
@@ -45,6 +47,8 @@
     z-index: 1;
     border-radius: 4px;
     transition: 0.25s ease-in-out;
+    height: 350px;
+    width: 600px;
 }
 
 .project_img:hover img {
@@ -92,6 +96,7 @@
 
 .project_tech {
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
     color: #838FAE;
     font-family: "Mingzat", sans-serif;
@@ -158,4 +163,29 @@
 
 .project_link_icon:hover {
     color: #75ACA9;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .project_container {
+        flex-direction: column;
+    }
+
+    .project_img {
+        width: auto;
+        margin: auto;
+    }
+
+    .project_info {
+        text-align: left;
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .project_img img {
+        width: 100%;
+        height: 250px;
+    }
 }

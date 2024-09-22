@@ -5,6 +5,10 @@ nav {
     padding: 10px 20px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .logo {
     color: #75ACA9;
     font-family: "PT Mono", monospace;
@@ -79,4 +83,14 @@ nav {
 .links button:hover {
     background-color: rgb(169, 169, 169, 0.1);
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }

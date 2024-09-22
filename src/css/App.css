@@ -5,6 +5,7 @@ html {
 
 .App {
   background-color: #081B30;
+  width: fit-content;
 }
 
 .body_content {
@@ -89,4 +90,50 @@ html {
   color: #A9A9A9;
   margin: 0 0 10px 0;
   transition: 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .body_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10fr 0.2fr;
+  }
+
+  .center_content {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .left_sidebar {
+    grid-area: 2 / 2 / 3 / 2;
+    
+  }
+
+  .icon_links {
+    position: relative;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .icon_links a {
+    padding: 0 10px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .icon_links a {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right_sidebar {
+    display: none;
+    grid-area: 3 / 2 / 4 / 2;
+    writing-mode: horizontal-tb;
+  }
+
+  .email_link {
+    position: relative;
+  }
 }

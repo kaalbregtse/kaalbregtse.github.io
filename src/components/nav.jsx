@@ -5,7 +5,7 @@ import Resume from '../images/KyczarAalbregtseResume.pdf';
 
 export default function Nav() {
     return (
-        <nav>
+        <nav id="nav">
             <div className='logo'>
                 <h1>KJA</h1>
             </div>
@@ -39,6 +39,10 @@ export default function Nav() {
                 </ul>
 
                 <button><a href={Resume} target='_blank' rel='noreferrer'>Resume</a></button>
+            </div>
+
+            <div className='hamburger'>
+                        <p style={{fontSize: '25px', color: 'white'}}>+</p>
             </div>
         </nav>
     )

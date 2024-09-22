@@ -86,3 +86,27 @@ hr {
     filter: grayscale(0);
     box-shadow: 14px 14px #081B30, 15px 15px 0px 3px #75ACA9;
 }
+
+@media screen and (max-width: 768px) {
+    .bio_container {
+        flex-direction: column-reverse;
+    }
+
+    .bio {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .img_container {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .bio_pic {
+        float: none;
+    }
+
+    hr {
+        width: 240px;
+    }
+}
