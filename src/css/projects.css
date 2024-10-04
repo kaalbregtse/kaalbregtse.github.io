@@ -189,3 +189,66 @@
         height: 250px;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .projects_section {
+        width: 100%;
+        margin: 0 auto 70px auto;
+    }
+
+    .title_container {
+        margin: auto;
+    }
+
+    .title_container p {
+        font-size: 18px;
+    }
+
+    .title_container hr {
+        display: none;
+    }
+
+    .project_container {
+        margin: 20px auto 30px auto;
+    }
+
+    .project_info {
+        margin: 0;
+        width: 100%;
+    }
+
+    .project_title {
+        font-size: 20px;
+    }
+
+    .project_img img{
+        height: 200px;
+    }
+
+    .project_desc {
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0;
+        padding: 0;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .project_tech {
+        justify-content: left;
+    }
+
+    .project_tech p {
+        margin: 0 10px 0 0;
+        font-size: 12px;
+    }
+
+    .project_icons {
+        justify-content: left;
+    }
+
+    .project_icons .project_link_icon {
+        margin: 10px 10px 0 0;
+        height: 20px;
+    }
+}

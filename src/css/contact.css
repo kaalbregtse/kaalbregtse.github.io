@@ -33,3 +33,22 @@
     padding: 8px 12px;
     border-radius: 4px;
 }
+
+@media screen and (max-width: 376px) {
+    .contact_section {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact_section h2 {
+        font-size: 24px;
+    }
+
+    .contact_sentence {
+        font-size: 16px;
+    }
+
+    .contact_section a {
+        font-size: 16px;
+    }
+}

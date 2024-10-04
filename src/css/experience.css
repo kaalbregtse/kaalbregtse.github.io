@@ -80,3 +80,40 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .experience_sections {
+        margin: 70px 0;
+    }
+
+    .experience_container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .job_desc {
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
+
+    .job_tabs {
+        margin: auto;
+        width: 80%;
+        overflow: scroll;
+    }
+
+    .job_tabs span{
+        display: flex;
+        overflow: scroll;
+        width: max-content;
+    }
+
+    .job_tabs .job_titles {
+        border-top: 2px solid rgb(167, 167, 167, 0.3);
+        border-left: none;
+    }
+
+    .job_tabs .active {
+        border-top: 2px solid #75ACA9;
+    }
+}

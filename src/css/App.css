@@ -5,7 +5,6 @@ html {
 
 .App {
   background-color: #081B30;
-  width: fit-content;
 }
 
 .body_content {
@@ -136,4 +135,14 @@ html {
   .email_link {
     position: relative;
   }
+}
+
+@media screen and (max-width: 376px) {
+    .body_content {
+      width: 100%;
+    }
+
+    .center_content {
+      width: 100dvw;
+    }
 }
