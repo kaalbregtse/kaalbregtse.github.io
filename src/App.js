@@ -19,7 +19,7 @@ function App() {
       <Nav />
       <div className='body_content'>
 
-        <div class="left_sidebar"> 
+        <div className="left_sidebar"> 
           <div className='icon_links'>
             <a href='https://github.com/kaalbregtse' target='_blank' rel="noreferrer"><FontAwesomeIcon className='social_icon' icon="fa-brands fa-square-github" /></a>
             <a href='https://www.instagram.com/kyczaraalbregtse/' target='_blank' rel="noreferrer"><FontAwesomeIcon className='social_icon' icon="fa-brands fa-square-instagram" /></a>
@@ -28,7 +28,7 @@ function App() {
           </div>
         </div>
 
-        <div class="center_content"> 
+        <div className="center_content"> 
           <HeroBanner />
           <AboutMe />
           <Experience />
@@ -37,7 +37,7 @@ function App() {
           <Footer />
         </div>
 
-        <div class="right_sidebar">
+        <div className="right_sidebar">
           <div className='email_link'>
             <a href='mailto: kyczaraalbregtse@gmail.com'>kyczaraalbregtse@gmail.com</a>
             <div className='line'></div>

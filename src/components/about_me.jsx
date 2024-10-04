@@ -14,13 +14,14 @@ export default function AboutMe() {
             <div className="bio_container">
                 <div className="bio">
                     <p>Hello! My name is Kyczar and I enjoy creating things that live on the internet.
-                        My interest in anything computers started when I was in middle school and I bough my 
-                        first desktop with all the money I saved up. I did not know what I wanted to do with this 
-                        passion until my first internship where I got to try my hand at web development.
+                        My interest in anything computers started when I was in middle school and I bought my 
+                        first desktop with all the money I saved up from countless birthdays, christmas's and chores. 
+                        I did not know what I wanted to do with this passion until my first internship where I 
+                        got to try my hand at web development.
                     </p>
 
                     <p>
-                        Since then, I have had the opprotunity to continue my internship throughout my last two years of school,
+                        Since then, I have had the opportunity to continue my internship throughout my last two years of school,
                         and eventually got hired on full time after graduation. My main focus at <a className='paragraph_links' href="https://www.kirbyrisk.com/">Kirby Risk</a>, is 
                         to build the best possible digital experience for our customers. 
                     </p>

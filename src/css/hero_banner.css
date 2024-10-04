@@ -74,12 +74,12 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .hero_banner {
 
     }
 
     .hero_banner .intro {
-        font-size: 35px;
+        font-size: 24px;
     }
 }
